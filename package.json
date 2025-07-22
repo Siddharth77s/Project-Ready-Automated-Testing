@@ -1,0 +1,12 @@
+{
+  "name": "niobooks-qa",
+  "version": "1.0.0",
+  "description": "A small test project that checks the login and registration flow on https://niobooks.in/webapp/.",
+  "scripts": {
+    "test": "npm run cypress --spec 'cypress/e2e/loginFlow.cy.js'   # runs all 10 tests headless",
+    "open": "cypress open                                           # opens the interactive runner"
+  },
+  "devDependencies": {
+    "cypress": "^14.5.1"
+  }
+}
